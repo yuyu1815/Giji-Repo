@@ -1,0 +1,18 @@
+OPEN_AI_API_KEY = ""
+CLAUD_AI_API_KEY = ""
+GEMINI_AI_API_KEY = ""
+
+#https://ai.google.dev/gemini-api/docs/api-key?hl=ja
+MODEL_NAME = "gemini-2.0-flash-exp"
+#モデル
+# https://platform.openai.com/docs/models
+# https://docs.anthropic.com/en/docs/about-claude/models#model-recommendations
+# https://ai.google.dev/gemini-api/docs/models/gemini?hl=ja
+PROMPT= "以下の文章は文字お越しの議事録ですがミスが少しあるのでそこを修正して再度出力しなおしてください。文章を修正したものだけ出力してください。数字はアラビア数字に統一してください。次の説明は言わないでください「内容の修正箇所、修正しましたなどの文言」"
+#ランダム性
+TEMPERATURE = 0
+#音声をカットする時間(秒)
+CAT_TIME = 30
+# テスト中のため使用不可能
+DISCORD_BOT_TOKEN_KEY = ""
+OPENAI_API_BASE_URL = "https://api.openai.com/v1/chat/completions"
